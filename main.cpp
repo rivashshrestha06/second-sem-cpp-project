@@ -36,17 +36,26 @@ cout<<"Current Balance : "<<balance<<endl;
 
 void saveToFile()
 {
-    ofstream fout("account.txt");
-    fout << name << endl;
-    fout << address << endl;
-    fout << account_no << endl;
-    fout << balance << endl;
+    cout << "Saving to file: account.txt" << endl;
+    ofstream fout("C:\\Users\\user\\Projects\\second-sem\\account.txt");
+    fout <<"Name :"<<name<< endl;
+    fout <<"Address: "<<address << endl;
+    fout <<"Account No.: "<<account_no << endl;
+    fout <<"Current Balance : "<<balance << endl;
     fout.close();
+if (fout.fail()) 
+{
+    cout << "❌ File write failed!" << endl;
+}
+else 
+{
+    cout << "✅ File written successfully to Desktop!" << endl;
+}
 }
 
 int loadFromFile() 
 {
-    ifstream in("account.txt");
+    ifstream in("C:\\Users\\user\\Projects\\second-sem\\account.txt");
     if (!in)
     {
         return 0; 
