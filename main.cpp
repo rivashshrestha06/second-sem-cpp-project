@@ -1,4 +1,5 @@
 #include<iostream>
+#include<fstream> 
 #include<string.h>
 using namespace std;
 class saving_account
@@ -16,6 +17,7 @@ public:
 void getinfo()
 {
 cout<<"-----Enter the details of the accountholder-----"<<endl;
+cin.ignore();
 cout<<"Name : ";
 cin.getline(name,30);
 cout<<"Address : ";
@@ -31,6 +33,32 @@ cout<<"Address : "<<address<<endl;
 cout<<"A/C no. : "<<account_no<<endl;
 cout<<"Current Balance : "<<balance<<endl;
 }
+
+void saveToFile()
+{
+    ofstream fout("account.txt");
+    fout << name << endl;
+    fout << address << endl;
+    fout << account_no << endl;
+    fout << balance << endl;
+    fout.close();
+}
+
+int loadFromFile() 
+{
+    ifstream in("account.txt");
+    if (!in)
+    {
+        return 0; 
+    }
+    in.getline(name, 30);
+    in.getline(address, 30);
+    in >> account_no;
+    in >> balance;
+    in.close();
+    return 1; 
+}
+
 void deposit()
 {
 double dep;
@@ -67,9 +95,17 @@ int main()
 saving_account *c;
 saving_account d;
 c = &d;
-cout<<"Create your account : \n";
-c->getinfo();
-c->showInfo();
+  if (c->loadFromFile())
+    {
+        cout << "Account loaded from file successfully.\n";
+        c->showInfo();
+    }
+    else
+    {
+        cout<<"Create your account : \n";
+        c->getinfo();
+        c->showInfo();
+    }
 while(1)
 {
 cout<<"Choose from the following options : \n";
@@ -90,6 +126,7 @@ else if(ch == 'b')
 
 else if(ch == 'q')
         {
+            c->saveToFile();
             cout<<"Thank you for using our service. Goodbye!\n";
             break;
         }
