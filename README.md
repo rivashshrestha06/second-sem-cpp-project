@@ -1,27 +1,48 @@
 **Simple Banking System (C++ Project)**
 
-This is a simple C++ program that simulates basic banking operations for a **savings account**. It allows you to create an account, deposit and withdraw money, and check the balance — all through a command-line interface.
+This is a simple C++ program that simulates basic banking operations for a savings account.
+It provides a command-line interface where users can sign up, log in, deposit, withdraw, and check their balance.
+Account details and login credentials are saved to files for persistence.
 
----
+✨ **Features**
 
-**Features**
+Create a new account with:
 
-- Create a new account with name, address, and auto-generated account number
-- Deposit and withdraw money with validation
-- View account details
-- Uses **classes**, **constructors**, and **static data members**
+Name, Address, Username, and Password
 
----
+Auto-generated unique account number
 
-**How to Compile & Run**
+Login with saved username and password (credentials stored in userpassword.txt)
 
-**On Windows (using g++):**
-```bash
+Deposit and withdraw money with validation
+
+View account details (Name, Address, Account No., Balance)
+
+Balance persistence using file storage (account.txt)
+
+Uses classes, constructors, file handling, and static data members
+
+⚙️ **How to Compile & Run**
+On Windows (using g++):
 g++ main.cpp -o banking.exe
-./banking
-```
+./banking.exe
 
-**AUTHOR**
+On Linux/Mac:
+g++ main.cpp -o banking
+./banking
+
+📂 **Files Used**
+
+main.cpp → The main program file
+
+userpassword.txt → Stores usernames and passwords (in plain text)
+
+account.txt → Stores account details and balance for the last used account
+
+🧑‍💻 **Author**
+
 Rivash Shrestha
+Second Semester
 Bachelor in Computer Engineering
+Purbanchal University
 📍 Nepal
