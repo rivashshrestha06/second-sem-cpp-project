@@ -42,7 +42,11 @@ account.txt → Stores account details and balance for the last used account
 🧑‍💻 **Author**
 
 Rivash Shrestha
+
 Second Semester
+
 Bachelor in Computer Engineering
+
 Purbanchal University
+
 📍 Nepal
