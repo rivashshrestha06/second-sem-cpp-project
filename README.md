@@ -1,4 +1,4 @@
-**Simple Banking System (C++ Project) (Not completed yet!)**
+**Simple Banking System (C++ Project) (Not completed yet !)**
 
 This is a simple C++ program that simulates basic banking operations for a savings account.
 It provides a command-line interface where users can sign up, log in, deposit, withdraw, and check their balance.
