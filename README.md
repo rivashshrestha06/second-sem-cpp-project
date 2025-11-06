@@ -87,12 +87,14 @@ second-sem-cpp-project/
 **Compile:**
 ```bash
 g++ Minibank.cpp -o Minibank.exe
+```
 
 ---
 
 **Run:**
 ```bash
 ./Minibank.exe
+```
 
 Follow on-screen options to create, log in, and manage accounts.
 
