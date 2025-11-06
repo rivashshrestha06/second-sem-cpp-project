@@ -137,7 +137,7 @@ Nepal
 
 ## 🧾 License
 
-This project is open-source for learning and academic purposes.
+This project is open-source for learning and academic purposes.  
 You’re free to modify or extend it with credit to the author.
 
 ---
