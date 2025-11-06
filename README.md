@@ -144,6 +144,6 @@ You’re free to modify or extend it with credit to the author.
 
 ## 🧱 Project Status
 
-🟡 Version: Early Development (v0.8 Prototype)
-🧩 Goal: Build a complete mini banking suite with admin and transaction tracking
-🧠 Next milestone: Add transaction history + admin dashboard
+🟡 Version: Early Development (v0.8 Prototype)  
+🧩 Goal: Build a complete mini banking suite with admin and transaction tracking  
+🧠 Next milestone: Add transaction history + admin dashboard  
