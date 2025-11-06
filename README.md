@@ -90,7 +90,8 @@ g++ Minibank.cpp -o Minibank.exe
 
 ---
 
-**Run**
+**Run:**
+```bash
 ./Minibank.exe
 
 Follow on-screen options to create, log in, and manage accounts.
