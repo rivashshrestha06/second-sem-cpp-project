@@ -88,10 +88,14 @@ second-sem-cpp-project/
 ```bash
 g++ Minibank.cpp -o Minibank.exe
 
+---
+
 **Run**
 ./Minibank.exe
 
 Follow on-screen options to create, log in, and manage accounts.
+
+---
 
 ## 🧠 Planned / Upcoming Features
 
@@ -104,6 +108,8 @@ Follow on-screen options to create, log in, and manage accounts.
 * 💾 Encrypted data storage
 * 📈 Enhanced UI with menu animations
 
+---
+
 ## ⚠️ Known Limitations
 
 * Works only on Windows (due to conio.h)
@@ -111,19 +117,26 @@ Follow on-screen options to create, log in, and manage accounts.
 * No multi-threading (single-user runtime)
 * Basic input validation (does not yet handle all edge cases)
 
+---
+
 ## 👨‍💻 Author
 
 Rivash Shrestha
 Bachelor in Computer Engineering
-Khwopa Engineering College,Purbanchal University, Nepal
-
+Khwopa Engineering College
+Purbanchal University
+Nepal
 📧 rivashshrestha5@gmail.com
 🌐 GitHub: @rivashshrestha06
+
+---
 
 ## 🧾 License
 
 This project is open-source for learning and academic purposes.
 You’re free to modify or extend it with credit to the author.
+
+---
 
 ## 🧱 Project Status
 
