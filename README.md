@@ -64,6 +64,7 @@ This project serves as both a practical OOP demonstration and a foundation for f
 
 ## 📂 Current File Structure
 
+```
 second-sem-cpp-project/
 │
 ├── Minibank.cpp # Main source code
@@ -71,7 +72,7 @@ second-sem-cpp-project/
 ├── userpassword.txt # Username-password mapping
 ├── <account_no>.txt # Individual account details
 └── README.md # Project documentation
-
+```
 
 ---
 
@@ -124,13 +125,13 @@ Follow on-screen options to create, log in, and manage accounts.
 
 ## 👨‍💻 Author
 
-Rivash Shrestha
-Bachelor in Computer Engineering
-Khwopa Engineering College
-Purbanchal University
-Nepal
-📧 rivashshrestha5@gmail.com
-🌐 GitHub: @rivashshrestha06
+Rivash Shrestha  
+Bachelor in Computer Engineering  
+Khwopa Engineering College  
+Purbanchal University  
+Nepal  
+📧 rivashshrestha5@gmail.com  
+🌐 GitHub: @rivashshrestha06  
 
 ---
 
